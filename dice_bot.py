@@ -118,4 +118,5 @@ async def roll(ctx, *, roll : str):
 
 # Start the bot with the appropriate credentials
 # bot.run(login_email, password)
- bot.run(os.environ.get('token'))
+#bot.run(os.environ.get('token'))
+bot.run(os.environ["token"])
